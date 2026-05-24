@@ -57,16 +57,16 @@ None of the parts need supports.
 ## Wiring
 Arduino Nano MAX7219 / pixels / pots
 
-D6 ────────────► WS2811 DATA (through ~330 Ω series resistor)
-D11 ────────────► MAX7219 CS (LOAD)
-D12 ────────────► MAX7219 DIN
-D13 ────────────► MAX7219 CLK
-A0 ◄────────── Brightness pot wiper
-A1 ◄────────── Rate (speed) pot wiper
-A2 ◄────────── Hue pot wiper
-A3 ◄────────── Program pot wiper
-5V ────────────► All pot top ends + MAX7219 V+
-GND ────────────► Common ground for everything
+- D6 ────────────► WS2811 DATA (through ~330 Ω series resistor)
+- D11 ────────────► MAX7219 CS (LOAD)
+- D12 ────────────► MAX7219 DIN
+- D13 ────────────► MAX7219 CLK
+- A0 ◄────────── Brightness pot wiper
+- A1 ◄────────── Rate (speed) pot wiper
+- A2 ◄────────── Hue pot wiper
+- A3 ◄────────── Program pot wiper
+- 5V ────────────► All pot top ends + MAX7219 V+
+- GND ────────────► Common ground for everything
 
 The MAX7219 drives the 8 digits with 16 lines (8 segments + 8 digit-enables)
 using time-domain multiplexing — only one digit is lit at any instant, but the
