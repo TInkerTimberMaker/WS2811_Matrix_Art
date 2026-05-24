@@ -47,10 +47,9 @@ STL files are in [`stl/`](stl/). They form the front panel and digit/pixel housi
 
 | File                       | Purpose                                          |
 |----------------------------|--------------------------------------------------|
-| `stl/<pixel_matrix.stl>`   | Frame that holds and aligns the 8×12 pixel grid  |
-| `stl/<digit_bezel.stl>`    | Bezel and spacer for the 8 seven-segment digits  |
-| `stl/<pot_panel.stl>`      | Front panel with mounting holes for the 4 pots   |
-| `stl/<enclosure_back.stl>` | Back/case (optional)                             |
+| `stl/4x4_matrix_holder-12mm_bullet_pixels.stl`   | 4x4 Frame that holds and aligns pixels. 6 needed for 8x12 matrix  |
+| `stl/7-segment-led_holder.stl`    | Bezel for the 8 seven-segment digits  |
+| `stl/control_knobs.stl`      | Front panel with mounting holes for the 4 pots   |
 
 **Print settings I used:** 0.2 mm layer height, 3 walls, 15% infill, PETG.
 None of the parts need supports.
