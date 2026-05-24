@@ -6,7 +6,7 @@ easter-egg words (`DEADBEEF`, `REBOOT`, `HALTC0DE`, ...) that roll into place
 and dissolve away. Behind them, a 96-pixel WS2811 LED matrix runs ten
 selectable animation modes, all driven by four front-panel knobs.
 
-![hero shot](<docs/hero.jpg>)
+![hero shot](<docs/animated_display.jpg>)
 
 ## Video
 [Watch the video →](<https://youtu.be/your-video-id>)
